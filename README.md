@@ -13,14 +13,15 @@ Questo progetto implementa una funzionalità di login e registrazione utilizzand
 ```
 /login_js_project
 ├── /node_modules        # Dipendenze di Node.js
-├── /public              # File statici (HTML, CSS, JavaScript)
+├── /backend             # lato server Rest API,Mysql
+└── server.js            # File principale del server Node.js    
+├── /frontend            # File statici (HTML, CSS, JavaScript)
 │   ├── index.html       # Pagina di login
 │   ├── registrati.html  # Pagina di registrazione
 │   ├── style.css        # Stile della pagina di login
 │   ├── style2.css       # Stile della pagina di registrazione
 │   ├── login.js         # JavaScript per il login
 │   └── registrati.js    # JavaScript per la registrazione
-├── /server.js           # File principale del server Node.js
 └── /package.json        # Gestione delle dipendenze e script
 ```
 
